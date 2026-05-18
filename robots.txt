@@ -1,0 +1,42 @@
+# ========================================
+# ROBOTS.TXT — skyengineering
+# SEO + IA + Protection Scrapers
+# ========================================
+
+# Autoriser tous les moteurs de recherche
+User-agent: *
+Allow: /
+
+# IA utiles (visibilité ChatGPT / Perplexity / Claude)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot-Extended
+Allow: /
+
+# Bloquer les scrapers SEO agressifs
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+Sitemap: https://www.skyengineering.fr/sitemap.xml
